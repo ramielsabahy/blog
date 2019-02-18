@@ -1,4 +1,5 @@
-1- First Create a database called homestead with a username root
+First of all copy all contents of .env.example to a new file called .env
+1- Then Create a database and add it's credentials to .env file
 2- execute this command "composer install"
 2- execute this command "php artisan key:generate"
 3- execute "php artisan migrate"
